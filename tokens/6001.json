@@ -1,0 +1,26 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Computing_power",
+            "value": "2"
+        },
+        {
+            "trait_type": "Energy efficiency",
+            "value": "20"
+        },
+        {
+            "trait_type": "Special events",
+            "value": "None"
+        },
+        {
+            "trait_type": "rarity",
+            "value": "Common"
+        }
+    ],
+    "name": "New Testing NFt ",
+    "artist": "0x9d0893114A813f8418Cf9EfEf5D8E9DdAB78AA9e",
+    "description": "This is also for the testing pupose ",
+    "image": "https://www.coodingdessign.com/novarealchain/uploads/NFT-Art-PNG.png",
+    "external_url": "https:\/\/www.coodingdessign.com\/novarealchain\/tokens\/6001",
+    "tokenIndex": "6001"
+}

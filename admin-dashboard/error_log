@@ -1,0 +1,8 @@
+[18-Apr-2024 04:03:48 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/wnuo1r55uvxe/public_html/novarealchain/admin-dashboard/signin.php on line 15
+[18-Apr-2024 04:31:15 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/wnuo1r55uvxe/public_html/novarealchain/admin-dashboard/signin.php on line 15
+[18-Apr-2024 05:18:50 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/wnuo1r55uvxe/public_html/novarealchain/admin-dashboard/signin.php on line 15
+[18-Apr-2024 05:19:15 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/wnuo1r55uvxe/public_html/novarealchain/admin-dashboard/signin.php on line 15
+[18-Apr-2024 05:19:35 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/wnuo1r55uvxe/public_html/novarealchain/admin-dashboard/signin.php on line 15
+[01-May-2024 19:50:47 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/wnuo1r55uvxe/public_html/novarealchain/admin-dashboard/create_nft.php on line 235
+[01-May-2024 19:50:51 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/wnuo1r55uvxe/public_html/novarealchain/admin-dashboard/create_nft.php on line 235
+[01-May-2024 19:50:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/wnuo1r55uvxe/public_html/novarealchain/admin-dashboard/create_nft.php on line 235

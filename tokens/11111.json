@@ -1,0 +1,26 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Computing_power",
+            "value": null
+        },
+        {
+            "trait_type": "Energy efficiency",
+            "value": null
+        },
+        {
+            "trait_type": "Special events",
+            "value": null
+        },
+        {
+            "trait_type": "rarity",
+            "value": null
+        }
+    ],
+    "name": "nft",
+    "artist": "0x9d0893114A813f8418Cf9EfEf5D8E9DdAB78AA9e",
+    "description": "this is my first nft ",
+    "image": "https:\/\/www.coodingdessign.com\/novarealchain\/uploads\/bored-ape-nft.png",
+    "external_url": "https:\/\/www.coodingdessign.com\/novarealchain\/tokens\/11111",
+    "tokenIndex": "11111"
+}

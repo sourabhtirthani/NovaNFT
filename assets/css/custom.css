@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary:#16EBD3;
+    --pink:#E948FF;
+    --sky:#1D84FF;
+    --green:#3CC931;
+    --black:#000;
+    --white:#fff;
+    --light-white:#E8E6F4;
+    /* font fmaily */
+    --rem-font: "REM", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--rem-font);
+    background-color: var(--white);
+}
+
+
+/* header area */
+.gaps {
+    gap:15px
+}
+.userAddHead {
+    border: 2px solid var(--primary);
+    padding: 7px 15px;
+    background-color: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none !important;
+    font-weight: 500;
+}
+.headerMain {
+    background-color: var(--white);
+}
+.activePrimary {
+    background-color: #EDEDF0; 
+    border-radius: 50px;
+    border: 1px solid #E4E4E8;
+    padding: 2px 1px;
+}
+#navbarSupportedContent .active {
+  background-color: var(--white);
+  border-radius: 50px;
+}
+
+.button-Wallet {
+    background-color: var(--primary);
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: var(--rem-font);
+    outline: none !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.searchpopup {
+  display: none;
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: var(--white);
+  padding: 20px;
+  border: none;
+  z-index: 9;
+  width: 108%;
+  border-radius: 0 0 20px 20px;
+}
+
+.searchinput {
+  background-color: #EDEDF0;
+  border-right: 2px solid #E4E4E8;
+  padding-left: 20px;
+  height: 48px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .wallet-btn{display: block ruby;}
+
+/* hero container css  */
+
+.main-head{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal; }
+.sub-main-head{font-weight: 100; font-size: 28px;}
+.main-dec{font-weight: 100; font-size: 12px;}
+
+.RWAfi-text span {
+    color: gray;
+  }
+
+.heroContainer {
+    background: url('../img/home-banner-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+    height: 400px;
+}
+.herorows {
+    padding: 2rem 0;
+    color: var(--white);
+}
+.searchingarea {
+    width: 30%;
+}
+.searchinput {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+.btn-Sraching {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 50px;
+    outline: none !important;
+    cursor: pointer;
+}
+.filterarea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.selectors {
+    background-color: transparent;
+    border: 2px solid #EDEDF0; 
+    padding:0 20px;
+    height: 48px;
+    border-radius: 50px; 
+    outline: none;
+    width: 210px;
+}
+.StakedIcons {
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    z-index: 1;
+    background: var(--white);
+    padding: 2px 8px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 1px solid var(--light-white);
+}
+.nftContainers {
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #EDEDF0;
+    padding: 5px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.imgROw{
+    position: relative;
+}
+.imgROw img {
+    border-radius: 12px;
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+}
+.nftpontbtns {
+    position: absolute;
+  bottom: 11px;
+  width: 100%;
+  padding: 0px 10px;
+}
+.TH-bg40 {
+    background-color: var(--white);
+    padding: 2px 8px;
+    border-radius: 50px;
+}
+.TH-bg40 span {
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+.POWERMINING {
+    font-size: 12px;
+    color: gray;
+  }
+.right-box10 {
+    background-color: #E8E6F4;
+    padding: 2px 10px;
+    border-radius: 10px;
+    color: #05000F;
+}
+.right-box10 span {
+    font-size: 13px;
+    color: var(--black);
+}
+.button-border-cian {
+    border: 1px solid #EDEDF0;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.RWAfi-text {
+    line-height: 15px;
+}
+.RWAfi-text h6 {
+    font-size: 14px;
+}
+.RWAfi-text span{
+    font-size: 10px;
+}
+
+/* priview page css */
+.priviewConttentrow img {
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 0px 0px 10px var(--black);
+}
+
+.commonRow {
+    border: 1px solid var(--light-white);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.wth40-Row {
+    border: 1px solid var(--light-white);
+    padding: 12px;
+    border-radius: 12px;
+    width: 32%;
+}
+.wth40-Row span {
+    font-size: 13px;
+}
+.LVL1,
+.LVL2 {
+    width: 65px;
+}
+.progress {
+    height: 10px;
+}
+.progress-bar {
+    background: linear-gradient(45deg, #6394FF, #16EBD3);
+}
+.Special-Events {
+    border: 1px solid var(--light-white);
+    padding: 12px;
+    border-radius: 12px;
+    width: 49%;
+}
+.PowerDiamondbox {
+    border: 1px solid var(--light-white);
+    padding: 12px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.font-size13 {
+    font-size: 13px;
+}
+
+.nftpontbtns span{color:#000;}
+
+
+/* Profile page css start here */
+.profile-container-edits {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nftContainers h5 {
+  color: #000;
+}
+
+.RWAfi-text h6 {
+  color: #000;
+}
+
+.meta-add {
+    background-color: #F3F2F9;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--black);
+    background-color: transparent;
+    border-bottom: 4px solid var(--primary);
+    border-radius: 0px;
+    font-weight: 600;
+}
+
+.stake-box{
+  border: 1px solid var(--light-white);
+  padding: 12px;
+  border-radius: 12px;}
+  
+  .stake-box p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+/* footer csss */
+.footerlogo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+div#popup-head { 
+    display: none;
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: var(--white);
+    padding: 20px;
+    border: none;
+    z-index: 9;
+    width: 108%;
+    border-radius: 0 0 20px 20px;
+}
+.searchpopup { 
+    display: none;
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: var(--white);
+    padding: 20px;
+    border: none;
+    z-index: 9;
+    width: 108%;
+    border-radius: 0 0 20px 20px;
+}
+
+#navbarSupportedContent .nav-tabs {
+  border-bottom: none;
+}
+
+button.btn-mobi-search, button.btn-toggale {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    background: #fff;
+    outline: none !important;
+  }
+
+
+/* Modal css start here */
+
+.modal-content { 
+    border-radius: 1.3rem; 
+}
+
+/* NFT preview css start here */
+  .COMMON-span {color: gray;font-weight: 600;}
+  .title-span {color: gray; }
+  .sub-span { font-size: 10px !important;}
+  .main-fea{color: gray; font-size: 10px;}
+  .event-des{line-height: initial;font-size: 13px;}
+  .heading-push{color: var(--TEXT-COLOR-BASIC, #05000F); font-size: 36px;font-style: normal; font-weight: 400;line-height: normal; }
+
+  @media (max-width: 575.98px) {
+    .sec-50 {width: 49%;}
+    .sec-100 {width: 100%; margin-top: 6px;}
+    .logo-footer {text-align: center;}
+    .list-unstyled.d-flex.align-items-center.m-0 {text-align: center;display: block !important;padding: 10px; }
+    .footer-menus li {  padding: 10px;}  
+    .footerlogo {display: block;}
+    .list-unstyled.d-flex.align-items-center.justify-content-end.m-0.last-foot {display: flex !important;justify-content: center !important;}
+    .main-head {font-size: 40px;text-align: center; }
+    .sub-main-head {font-size: 20px; text-align: center; }
+    .main-dec {text-align: center;}
+    .heroContainer {background: url('../img/home-banner-bg.png');}
+    #navbarSupportedContent{text-align:center}
+    .navbar-nav.mr-auto{width:fit-content!important;text-align:center;align-items:center;margin:auto;margin-right:auto;margin-top:12px}
+    .RWAfi-text{width:65%}
+    #profile-tab{padding:0 6px}
+    #home-tab{padding:0 6px}
+    #sorting{width:95%}
+    .no-data{padding:5px 15px}
+    #navbarSupportedContent .active{padding:5px 10px}
+    ul#myTab{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}
+        
+}
+
